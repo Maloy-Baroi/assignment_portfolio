@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    height: 600px;
+}
+
+.sec-1{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    color: dimgray;
+}
+
+.highlighter{
+    color: #ec4c7a;
+}
+
+.sec-1 .first-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 20px;
+    padding: 10% 20px 20px 20px;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(180deg, #ec4f8f, #ed4b71);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.sec-1 .second-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.second-half-width img{
+    width: 100%;
+}
+
+.sec-2{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px;
+    margin-top: 50px;
+}
+
+.sec-2 .first-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.sec-2 .second-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 20px;
+    padding: 10% 20px 20px 20px;
+}
+
+
+.first-half-width img{
+    width: 100%;
+}
+
+.third-half-width{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px;
+    margin-top: 50px;
+}
+
+.third-half-width .work{
+    margin-top: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.third-half-width .work #work1, #work2, #work3{
+    display: inline-block;
+    width: 28%;
+    padding: 2%;
+}
+
+.forth-half-width{
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px;
+    margin-top: 50px;
+}
+
+.client-quote{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
