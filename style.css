@@ -3,6 +3,25 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.menu{
+    text-decoration: none;
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 2px;
+    offset-distance: 2px;
+    width: 30px;
+    height: 5px;
+}
+
+.nav-item{
+    text-decoration: none; 
+    background-color: black; 
+    padding: 2px;
+    color: wheat;
+    border-radius: 8px;
+    box-shadow: slategrey 2px 2px 10px;
+}
+
 section{
     height: 600px;
 }
