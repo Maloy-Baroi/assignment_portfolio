@@ -8,7 +8,6 @@ body{
     position: fixed;
     margin-top: 2%;
     margin-left: 2px;
-    offset-distance: 2px;
     width: 30px;
     height: 5px;
 }
